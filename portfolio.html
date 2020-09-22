@@ -15,14 +15,14 @@
             margin:0; 
             height:100%;
         }
+        body {
+            background-image: url(images/circle-blues.png);
+        }
         nav {
             border-bottom: 10px solid #010145
         }
         .navbar-collapse.in {
             display: block !important;
-        }
-        body {
-            background-image: url(images/circle-blues.png);
         }
         .container {
             background-color: white;
@@ -30,15 +30,21 @@
             margin:50px;
             margin-top: 55px;
             width: 60%  
+        }
+        h1 {
+            padding-left: 12px;
+            margin-left: 12px;
+            height: 100%;
+            float: left;
+        }
+        .top {
+            padding-top: 20px;
+            border-top: 1px solid rgb(146, 144, 144);
         } 
         img {
             margin:5px;
             padding-left: 5px;
             }
-        h1 {
-            
-            border-bottom: 1px solid rgb(146, 144, 144);
-        }
         footer {
             width: 100%;
             border-top: 10px solid #010145;
@@ -60,6 +66,7 @@
     </style>
 </head>
 <body>
+<!-- nav outside container -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Jacob Nelson</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,15 +83,17 @@
             </ul>
         </div>
     </nav>
+<!-- container -->
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Projects</h1>   
+                        <h1>Portfolio</h1>   
                     </div>
                 </div>
-                <div class="row">
+<!-- "top" class used for border under h1 -->
+                <div class="row top">
                     <div class="col-md-6">
                         <img src="https://via.placeholder.com/250x250" alt="Project 1">
                     </div>
@@ -111,6 +120,7 @@
             </div>
         </div>
     </div>
+<!-- footer -->
     <footer>
         <div class="row">
             <div class="col-md-12">
