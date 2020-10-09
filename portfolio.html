@@ -44,6 +44,7 @@
         img {
             margin:5px;
             padding-left: 5px;
+            display: flex;
             }
         footer {
             width: 100%;
@@ -51,18 +52,19 @@
             background-color: white;
             height: 50px; 
         }
-        @media screen and (max-width: 460px) {
-  
-  .container {
-      width:75%;
-  }
+        .name {
+            
+            font-weight: bold;
         }
-        @media screen and (max-width: 1030px)  {
+        .project {
+            border: 1px solid blue;
+        }
+          
+        @media screen and (max-width: 800px)  {
             img {
-                max-width: 150px;
-                max-height: 150px;
+                width: 80%;
             }
-        }   
+        }     
     </style>
 </head>
 <body>
@@ -94,26 +96,34 @@
                 </div>
 <!-- "top" class used for border under h1 -->
                 <div class="row top">
-                    <div class="col-md-6">
+                    <div class="col-md-6 project">
+                        <p class= name>The Hunger Game</p>
+                        <p>Filter based recipe generator</p>
                         <a href="https://s2hon.github.io/TheHungerGame/"><img src= images/TheHungerGame.png alt="The Hunger Game"></a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 project">
+                        <p class= name>Weather Dashboard</p>
+                        <p>See weather forecast anywhere!</p>
                         <a href="https://jacobn88.github.io/Weather/"><img src= images/dashboard.png alt="Weather Dashboard"></a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 project">
+                        <p class= name>Day planner</p>
+                        <p>Plan your day in real time</p>
                         <a href="https://jacobn88.github.io/Day-planner/"><img src= images/day-planner.png alt="Day Planner"></a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 project">
+                        <p class= name>Password generator</p>
+                        <p>Custom random password</p>
                         <a href="https://jacobn88.github.io/Password/"><img src= images/randompassword.png alt="Password Generator"></a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 project">
                         <img src="https://via.placeholder.com/250x250" alt="Project 5">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 project">
                         <img src="https://via.placeholder.com/250x250" alt="Project 6">
                     </div>
                 </div>
